@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <title>Salta Martí!</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="ui">
+    <span class="badge">Altura: <span id="score">0</span> m</span>
+    <span class="badge">Estat: <span id="state">Jugant</span></span>
+  </div>
+  <canvas id="canvas"></canvas>
+  <div id="hud">
+    <div>Fletxes/A-D per moure · Espai per saltar · F/K per l'arc · P pausa</div>
+    <div>© 2025 Jordi 🌈</div>
+  </div>
+
+  <div id="overlay" class="hidden">
+    <div>
+      <div class="title">Salta Martí! 🌈</div>
+      <div class="sub">Salta plataformes cap amunt i llança arcs de sant Martí per netejar enemics.</div>
+      <button id="restart" class="btn">Torna a començar</button>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

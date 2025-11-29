@@ -1,0 +1,32 @@
+# Entorn virtual
+venv/
+ENV/
+
+# Fitxers temporals de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fitxers de logs
+*.log
+
+# Fitxers de configuració locals
+*.env
+.env.*
+
+# Fitxers temporals del sistema
+.DS_Store
+Thumbs.db
+
+# Fitxers de compilació
+*.so
+*.dll
+*.exe
+
+# Fitxers de Zone Identifier
+*:Zone.Identifier
+
+# Carpeta de proves
+tests/tmp/
+

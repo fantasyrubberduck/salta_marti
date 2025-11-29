@@ -1,0 +1,24 @@
+html, body { margin:0; padding:0; background:#0e0e14; font-family:system-ui, sans-serif; }
+#ui {
+  position:fixed; top:10px; left:10px; color:#fff; z-index:2;
+  text-shadow:0 2px 4px rgba(0,0,0,0.6);
+  font-weight:600;
+}
+#ui .badge { background:#222c; padding:6px 10px; border-radius:8px; margin-right:8px; display:inline-block; }
+#canvas { display:block; width:100vw; height:100vh; }
+#hud {
+  position:fixed; bottom:10px; left:10px; right:10px; color:#ddd; z-index:2; font-size:14px;
+  display:flex; justify-content:space-between; align-items:center;
+  text-shadow:0 2px 4px rgba(0,0,0,0.6);
+}
+#overlay {
+  position:fixed; inset:0; display:flex; align-items:center; justify-content:center;
+  background:linear-gradient(180deg, rgba(0,0,0,0.6), rgba(0,0,0,0.8));
+  color:#fff; z-index:3; text-align:center; padding:20px;
+}
+#overlay.hidden { display:none; }
+.btn { background:#3b82f6; color:#fff; border:none; padding:10px 14px; border-radius:8px; cursor:pointer; font-weight:700; }
+.btn:hover { background:#2563eb; }
+.title { font-size:28px; margin-bottom:8px; }
+.sub { opacity:0.9; margin-bottom:12px; }
+@media (max-width:560px){ .title{font-size:22px;} }
