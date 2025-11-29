@@ -38,18 +38,13 @@ Cada metre guanyat és un pas més a prop del seu somni: pintar el cel amb color
 
 ## ⚙️ Instal·lació
 
-1. Clona el repositori:
-   ```bash
-   git clone https://github.com/usuari/salta-marti.git
-   ```
+1. Clona el repositori.
 2. Obre `index.html` amb qualsevol navegador modern.
 3. Gaudeix del joc!
 
 ---
 
 ## 📸 Captures de pantalla
-
-*(afegeix les teves imatges a la carpeta `/screenshots/` i referencia-les aquí)*
 
 ![Pantalla inicial](screenshots/start.png)
 ![Martí saltant plataformes](screenshots/jump.png)
